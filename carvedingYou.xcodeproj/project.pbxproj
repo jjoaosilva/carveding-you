@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A2BAAFA7267B996A00CD7842 /* carvedingYouApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BAAFA6267B996A00CD7842 /* carvedingYouApp.swift */; };
+		A2BAAFA7267B996A00CD7842 /* CarvedingYouApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BAAFA6267B996A00CD7842 /* CarvedingYouApp.swift */; };
 		A2BAAFA9267B996A00CD7842 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BAAFA8267B996A00CD7842 /* ContentView.swift */; };
 		A2BAAFAB267B996C00CD7842 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2BAAFAA267B996C00CD7842 /* Assets.xcassets */; };
 		A2BAAFAE267B996C00CD7842 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2BAAFAD267B996C00CD7842 /* Preview Assets.xcassets */; };
-		A2BAAFB9267B996C00CD7842 /* carvedingYouTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BAAFB8267B996C00CD7842 /* carvedingYouTests.swift */; };
-		A2BAAFC4267B996C00CD7842 /* carvedingYouUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BAAFC3267B996C00CD7842 /* carvedingYouUITests.swift */; };
+		A2BAAFB9267B996C00CD7842 /* CarvedingYouTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BAAFB8267B996C00CD7842 /* CarvedingYouTests.swift */; };
+		A2BAAFC4267B996C00CD7842 /* CarvedingYouUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BAAFC3267B996C00CD7842 /* CarvedingYouUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +34,16 @@
 
 /* Begin PBXFileReference section */
 		A2BAAFA3267B996A00CD7842 /* carvedingYou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = carvedingYou.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2BAAFA6267B996A00CD7842 /* carvedingYouApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carvedingYouApp.swift; sourceTree = "<group>"; };
+		A2BAAFA6267B996A00CD7842 /* CarvedingYouApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarvedingYouApp.swift; sourceTree = "<group>"; };
 		A2BAAFA8267B996A00CD7842 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A2BAAFAA267B996C00CD7842 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2BAAFAD267B996C00CD7842 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A2BAAFAF267B996C00CD7842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2BAAFB4267B996C00CD7842 /* carvedingYouTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = carvedingYouTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2BAAFB8267B996C00CD7842 /* carvedingYouTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carvedingYouTests.swift; sourceTree = "<group>"; };
+		A2BAAFB8267B996C00CD7842 /* CarvedingYouTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarvedingYouTests.swift; sourceTree = "<group>"; };
 		A2BAAFBA267B996C00CD7842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2BAAFBF267B996C00CD7842 /* carvedingYouUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = carvedingYouUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2BAAFC3267B996C00CD7842 /* carvedingYouUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carvedingYouUITests.swift; sourceTree = "<group>"; };
+		A2BAAFC3267B996C00CD7842 /* CarvedingYouUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarvedingYouUITests.swift; sourceTree = "<group>"; };
 		A2BAAFC5267B996C00CD7842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,7 +95,7 @@
 		A2BAAFA5267B996A00CD7842 /* carvedingYou */ = {
 			isa = PBXGroup;
 			children = (
-				A2BAAFA6267B996A00CD7842 /* carvedingYouApp.swift */,
+				A2BAAFA6267B996A00CD7842 /* CarvedingYouApp.swift */,
 				A2BAAFA8267B996A00CD7842 /* ContentView.swift */,
 				A2BAAFAA267B996C00CD7842 /* Assets.xcassets */,
 				A2BAAFAF267B996C00CD7842 /* Info.plist */,
@@ -115,7 +115,7 @@
 		A2BAAFB7267B996C00CD7842 /* carvedingYouTests */ = {
 			isa = PBXGroup;
 			children = (
-				A2BAAFB8267B996C00CD7842 /* carvedingYouTests.swift */,
+				A2BAAFB8267B996C00CD7842 /* CarvedingYouTests.swift */,
 				A2BAAFBA267B996C00CD7842 /* Info.plist */,
 			);
 			path = carvedingYouTests;
@@ -124,7 +124,7 @@
 		A2BAAFC2267B996C00CD7842 /* carvedingYouUITests */ = {
 			isa = PBXGroup;
 			children = (
-				A2BAAFC3267B996C00CD7842 /* carvedingYouUITests.swift */,
+				A2BAAFC3267B996C00CD7842 /* CarvedingYouUITests.swift */,
 				A2BAAFC5267B996C00CD7842 /* Info.plist */,
 			);
 			path = carvedingYouUITests;
@@ -140,6 +140,7 @@
 				A2BAAF9F267B996A00CD7842 /* Sources */,
 				A2BAAFA0267B996A00CD7842 /* Frameworks */,
 				A2BAAFA1267B996A00CD7842 /* Resources */,
+				A2745DDD267CC97F00ACB936 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -254,13 +255,33 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A2745DDD267CC97F00ACB936 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A2BAAF9F267B996A00CD7842 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A2BAAFA9267B996A00CD7842 /* ContentView.swift in Sources */,
-				A2BAAFA7267B996A00CD7842 /* carvedingYouApp.swift in Sources */,
+				A2BAAFA7267B996A00CD7842 /* CarvedingYouApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2BAAFB9267B996C00CD7842 /* carvedingYouTests.swift in Sources */,
+				A2BAAFB9267B996C00CD7842 /* CarvedingYouTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2BAAFC4267B996C00CD7842 /* carvedingYouUITests.swift in Sources */,
+				A2BAAFC4267B996C00CD7842 /* CarvedingYouUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
