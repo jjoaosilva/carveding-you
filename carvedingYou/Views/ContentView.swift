@@ -11,7 +11,7 @@ struct ContentView: View {
     let viewModel: CarvingViewModel = CarvingViewModel()
 
     var body: some View {
-        Text("Hello, world!")
+        Text("Carveding you")
             .padding()
     }
 }
