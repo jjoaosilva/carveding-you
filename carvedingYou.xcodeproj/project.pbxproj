@@ -10,6 +10,7 @@
 		A2745DE1267CD01800ACB936 /* SculptureClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A2745DE0267CD01800ACB936 /* SculptureClassifier.mlmodel */; };
 		A2745DE4267CD05300ACB936 /* CarvingEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2745DE3267CD05300ACB936 /* CarvingEnum.swift */; };
 		A2B20E362680BA160053DBE7 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B20E352680BA160053DBE7 /* ImagePickerView.swift */; };
+		A2B20E382680C35C0053DBE7 /* StarUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B20E372680C35C0053DBE7 /* StarUIView.swift */; };
 		A2BAAFA7267B996A00CD7842 /* CarvedingYouApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BAAFA6267B996A00CD7842 /* CarvedingYouApp.swift */; };
 		A2BAAFA9267B996A00CD7842 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BAAFA8267B996A00CD7842 /* ContentView.swift */; };
 		A2BAAFAB267B996C00CD7842 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2BAAFAA267B996C00CD7842 /* Assets.xcassets */; };
@@ -42,6 +43,7 @@
 		A2745DE0267CD01800ACB936 /* SculptureClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SculptureClassifier.mlmodel; sourceTree = "<group>"; };
 		A2745DE3267CD05300ACB936 /* CarvingEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarvingEnum.swift; sourceTree = "<group>"; };
 		A2B20E352680BA160053DBE7 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		A2B20E372680C35C0053DBE7 /* StarUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarUIView.swift; sourceTree = "<group>"; };
 		A2BAAFA3267B996A00CD7842 /* carvedingYou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = carvedingYou.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2BAAFA6267B996A00CD7842 /* CarvedingYouApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarvedingYouApp.swift; sourceTree = "<group>"; };
 		A2BAAFA8267B996A00CD7842 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -192,6 +194,7 @@
 			children = (
 				A2B20E342680B9F80053DBE7 /* Components */,
 				A2BAAFA8267B996A00CD7842 /* ContentView.swift */,
+				A2B20E372680C35C0053DBE7 /* StarUIView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -353,6 +356,7 @@
 				A2B20E362680BA160053DBE7 /* ImagePickerView.swift in Sources */,
 				A2745DE1267CD01800ACB936 /* SculptureClassifier.mlmodel in Sources */,
 				A2745DE4267CD05300ACB936 /* CarvingEnum.swift in Sources */,
+				A2B20E382680C35C0053DBE7 /* StarUIView.swift in Sources */,
 				A2D6EB9C267CE488005DD697 /* CarvingViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,6 +515,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.2;
 				DEVELOPMENT_ASSET_PATHS = "\"carvedingYou/Preview Content\"";
 				DEVELOPMENT_TEAM = D56NG2Q3UR;
 				ENABLE_PREVIEWS = YES;
@@ -533,6 +538,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.2;
 				DEVELOPMENT_ASSET_PATHS = "\"carvedingYou/Preview Content\"";
 				DEVELOPMENT_TEAM = D56NG2Q3UR;
 				ENABLE_PREVIEWS = YES;

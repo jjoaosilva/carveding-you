@@ -43,9 +43,9 @@ struct ContentView: View {
                 }.padding()
             }
             .navigationBarTitle("Demo")
-            .sheet(isPresented: self.$isImagePickerDisplay) {
-                ImagePickerView(selectedImage: self.$selectedImage, sourceType: self.sourceType)
-            }
+//            .sheet(isPresented: self.$isImagePickerDisplay) {
+//                ImagePickerView(selectedImage: self.$selectedImage, sourceType: self.sourceType)
+//            }
 
         }
     }

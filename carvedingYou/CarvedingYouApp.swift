@@ -11,7 +11,7 @@ import SwiftUI
 struct CarvedingYouApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StarUIView()
         }
     }
 }

@@ -7,13 +7,10 @@
 
 import SwiftUI
 
-class CarvingViewModel {
+class CarvingViewModel: ObservableObject {
     let service: CarvingService = CarvingService()
-    var carving: Carving = .padrao
-
-//    init() {
-//        carving(photo: UIImage(named: "eu")!)
-//    }
+    @Published var carving: Carving = .padrao
+    @Published var hasPhoto = false
 
     public func carving(photo: UIImage) {
         service.predicate(image: photo, completionHandler: self.handleService)
@@ -23,8 +20,13 @@ class CarvingViewModel {
         switch result {
         case .success(let predicateCarving):
             self.carving = predicateCarving
+            self.hasPhoto = true
         case .failure(_):
             self.carving = Carving.padrao
         }
+    }
+
+    func handle(image: UIImage) {
+        self.carving(photo: image)
     }
 }
