@@ -11,7 +11,7 @@ import SwiftUI
 struct ImagePickerView: UIViewControllerRepresentable {
 
     @Binding var selectedImage: UIImage?
-    var completion: ((_ image: UIImage) -> Void)
+    var completion: (() -> Void)
     @Environment(\.presentationMode) var isPresented
     var sourceType: UIImagePickerController.SourceType
 
@@ -42,6 +42,6 @@ class Coordinator: NSObject, UINavigationControllerDelegate, UIImagePickerContro
         guard let selectedImage = info[.originalImage] as? UIImage else { return }
         self.picker.selectedImage = selectedImage
         self.picker.isPresented.wrappedValue.dismiss()
-        self.picker.completion(selectedImage)
+        self.picker.completion()
     }
 }

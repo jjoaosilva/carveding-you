@@ -25,8 +25,4 @@ class CarvingViewModel: ObservableObject {
             self.carving = Carving.padrao
         }
     }
-
-    func handle(image: UIImage) {
-        self.carving(photo: image)
-    }
 }

@@ -22,24 +22,22 @@ struct StarUIView: View {
             }
             Image("background")
                 .aspectRatio(contentMode: .fill)
-
-            Button("Camera") {
+                .blur(radius: 2)
+            CustomButtonView {
                 self.isImagePickerDisplay.toggle()
-            }.padding()
-
+            }
         }
         .ignoresSafeArea()
         .sheet(isPresented: self.$isImagePickerDisplay) {
             ImagePickerView(selectedImage: self.$selectedImage, completion: self.handle, sourceType: .camera)
         }
         .sheet(isPresented: self.$hasPhoto, content: {
-            Text(self.viewModel.carving.rawValue)
+            TransformationView(photo: $selectedImage)
         })
     }
 
-    func handle(image: UIImage) {
+    func handle() {
         self.hasPhoto = true
-        self.viewModel.handle(image: image)
     }
 }
 
