@@ -23,7 +23,11 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSCameraUsageDescription</key>
-	<string>We need the camera permission</string>
+	<string>We need the camera permission to create your carving.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Audio is recorded to transcribe the quote. Audio recordings are discarded after transcription.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>We need the speech permission to recognize your quote.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

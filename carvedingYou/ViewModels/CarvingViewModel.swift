@@ -12,15 +12,18 @@ class CarvingViewModel: ObservableObject {
     @Published var carving: Carving = .padrao
     @Published var hasPhoto = false
 
-    public func carving(photo: UIImage) {
-        service.predicate(image: photo, completionHandler: self.handleService)
+    public func carving(photo: UIImage, handle: @escaping () -> Void) {
+        service.predicate(image: photo, completionHandler: { result in
+            self.handleService(result: result, handle: handle)
+        })
     }
 
-    private func handleService(result: Result<Carving, ModelError>) {
+    private func handleService(result: Result<Carving, ModelError>, handle: @escaping () -> Void) {
         switch result {
         case .success(let predicateCarving):
             self.carving = predicateCarving
             self.hasPhoto = true
+            handle()
         case .failure(_):
             self.carving = Carving.padrao
         }
