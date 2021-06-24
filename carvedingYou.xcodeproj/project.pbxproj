@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A213FE862684B8BD008BD785 /* TransformSpeechView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A213FE852684B8BD008BD785 /* TransformSpeechView.swift */; };
 		A21EA09026821BA400177EFC /* TransformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21EA08F26821BA400177EFC /* TransformationView.swift */; };
 		A2745DE1267CD01800ACB936 /* SculptureClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A2745DE0267CD01800ACB936 /* SculptureClassifier.mlmodel */; };
 		A2745DE4267CD05300ACB936 /* CarvingEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2745DE3267CD05300ACB936 /* CarvingEnum.swift */; };
+		A2A757C7268359420050CADC /* SpeechView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A757C6268359420050CADC /* SpeechView.swift */; };
+		A2A757C9268359E40050CADC /* SpeechViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A757C8268359E40050CADC /* SpeechViewModel.swift */; };
+		A2A757CD2683638A0050CADC /* interviewAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2A757CC2683638A0050CADC /* interviewAudio.mp3 */; };
 		A2B20E362680BA160053DBE7 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B20E352680BA160053DBE7 /* ImagePickerView.swift */; };
 		A2B20E382680C35C0053DBE7 /* StarUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B20E372680C35C0053DBE7 /* StarUIView.swift */; };
 		A2BAAFA7267B996A00CD7842 /* CarvedingYouApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BAAFA6267B996A00CD7842 /* CarvedingYouApp.swift */; };
@@ -42,9 +46,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A213FE852684B8BD008BD785 /* TransformSpeechView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformSpeechView.swift; sourceTree = "<group>"; };
 		A21EA08F26821BA400177EFC /* TransformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformationView.swift; sourceTree = "<group>"; };
 		A2745DE0267CD01800ACB936 /* SculptureClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SculptureClassifier.mlmodel; sourceTree = "<group>"; };
 		A2745DE3267CD05300ACB936 /* CarvingEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarvingEnum.swift; sourceTree = "<group>"; };
+		A2A757C6268359420050CADC /* SpeechView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechView.swift; sourceTree = "<group>"; };
+		A2A757C8268359E40050CADC /* SpeechViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechViewModel.swift; sourceTree = "<group>"; };
+		A2A757CC2683638A0050CADC /* interviewAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = interviewAudio.mp3; sourceTree = "<group>"; };
 		A2B20E352680BA160053DBE7 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
 		A2B20E372680C35C0053DBE7 /* StarUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarUIView.swift; sourceTree = "<group>"; };
 		A2BAAFA3267B996A00CD7842 /* carvedingYou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = carvedingYou.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +124,14 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		A2A757CA26835EBA0050CADC /* AudiosTest */ = {
+			isa = PBXGroup;
+			children = (
+				A2A757CC2683638A0050CADC /* interviewAudio.mp3 */,
+			);
+			path = AudiosTest;
+			sourceTree = "<group>";
+		};
 		A2B20E342680B9F80053DBE7 /* Components */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +164,7 @@
 		A2BAAFA5267B996A00CD7842 /* carvedingYou */ = {
 			isa = PBXGroup;
 			children = (
+				A2A757CA26835EBA0050CADC /* AudiosTest */,
 				A2D6EB9A267CDAD5005DD697 /* Views */,
 				A2D6EB99267CDACA005DD697 /* ViewModels */,
 				A2745DE2267CD03200ACB936 /* Models */,
@@ -190,6 +207,7 @@
 			isa = PBXGroup;
 			children = (
 				A2D6EB9B267CE488005DD697 /* CarvingViewModel.swift */,
+				A2A757C8268359E40050CADC /* SpeechViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -201,6 +219,8 @@
 				A2BAAFA8267B996A00CD7842 /* ContentView.swift */,
 				A21EA08F26821BA400177EFC /* TransformationView.swift */,
 				A2B20E372680C35C0053DBE7 /* StarUIView.swift */,
+				A2A757C6268359420050CADC /* SpeechView.swift */,
+				A213FE852684B8BD008BD785 /* TransformSpeechView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -310,6 +330,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2BAAFAE267B996C00CD7842 /* Preview Assets.xcassets in Resources */,
+				A2A757CD2683638A0050CADC /* interviewAudio.mp3 in Resources */,
 				A2BAAFAB267B996C00CD7842 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,14 +378,17 @@
 			files = (
 				A21EA09026821BA400177EFC /* TransformationView.swift in Sources */,
 				A2D6EB98267CD66E005DD697 /* ErrosEnum.swift in Sources */,
+				A2A757C9268359E40050CADC /* SpeechViewModel.swift in Sources */,
 				A2BAAFA9267B996A00CD7842 /* ContentView.swift in Sources */,
 				A2BAAFA7267B996A00CD7842 /* CarvedingYouApp.swift in Sources */,
+				A213FE862684B8BD008BD785 /* TransformSpeechView.swift in Sources */,
 				A2FDA4622680E0BB00BF1031 /* CustomButtonView.swift in Sources */,
 				A2D6EB96267CD253005DD697 /* CarvingService.swift in Sources */,
 				A2B20E362680BA160053DBE7 /* ImagePickerView.swift in Sources */,
 				A2745DE1267CD01800ACB936 /* SculptureClassifier.mlmodel in Sources */,
 				A2745DE4267CD05300ACB936 /* CarvingEnum.swift in Sources */,
 				A2B20E382680C35C0053DBE7 /* StarUIView.swift in Sources */,
+				A2A757C7268359420050CADC /* SpeechView.swift in Sources */,
 				A2D6EB9C267CE488005DD697 /* CarvingViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -523,7 +547,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.0.4;
+				CURRENT_PROJECT_VERSION = 1.1.3;
 				DEVELOPMENT_ASSET_PATHS = "\"carvedingYou/Preview Content\"";
 				DEVELOPMENT_TEAM = D56NG2Q3UR;
 				ENABLE_PREVIEWS = YES;
@@ -546,7 +570,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.0.4;
+				CURRENT_PROJECT_VERSION = 1.1.3;
 				DEVELOPMENT_ASSET_PATHS = "\"carvedingYou/Preview Content\"";
 				DEVELOPMENT_TEAM = D56NG2Q3UR;
 				ENABLE_PREVIEWS = YES;

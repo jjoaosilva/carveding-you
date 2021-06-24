@@ -37,7 +37,7 @@ struct CustomButtonView: View {
                         .scaleEffect(animationMountBusto)
                         .animation(.easeInOut(duration: 0.5))
                 }
-                Text("Carve!")
+                Text("Esculpir!")
                     .font(.system(size: 17, weight: .medium, design: .rounded))
                     .foregroundColor(.gray)
             }
