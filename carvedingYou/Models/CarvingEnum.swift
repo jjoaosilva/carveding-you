@@ -16,6 +16,25 @@ enum Carving: String {
     case venusMilo
     case padrao
 
+    var name: String {
+        switch self {
+        case .bustoNefertiti:
+            return "Busto de Nefertiti"
+        case .david:
+            return "David"
+        case .gaulesMorrendo:
+            return "O gaulês moribundo"
+        case .mascaraAgamenon:
+            return "Máscara Agamenon"
+        case .pensador:
+            return "O pensador"
+        case .venusMilo:
+            return "Vênus de Milo"
+        case .padrao:
+            return ""
+        }
+    }
+
     var image: UIImage {
         switch self {
         case .bustoNefertiti:
